@@ -5,7 +5,7 @@
 body{
     text-align: center;
     /* background-color: rgb(238, 0, 139); */
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #000000, #2a5298);
 }
 
 
@@ -46,7 +46,44 @@ body{
     padding: 2.3vmin;
     border: none;
     border-radius: 2vmin;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 244, 3);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.h1{
+     background-color: rgb(255, 255, 0);
+}
+.newgamebtn{
+    padding: 2.3vmin;
+    border: none;
+    border-radius: 2vmin;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 244, 3);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 10px;
+}
+
+#msg{
     color: white;
-    background-color: black;
-    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    margin-top: 10px;
+    
+
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hide{
+    display:none;
 }
